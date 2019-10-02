@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    width: 97%;
+    margin: 0px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 2px 2px rgb(230, 230, 230);
+    /* border: 1px dashed #000; */
+
+}
+
+.logo img{
+    height: 4vh;
+    margin-top: 0.5vh;
+    margin-bottom: auto;
+    margin-left: 3vw;
+}
+
+.login-panel{
+    
+    position: absolute;
+    border: 2px solid rgb(231, 222, 222);
+    box-shadow: 0px 0px 3px rgb(179, 179, 179);
+    width: 50vw;
+    height: 25vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 30vh;
+    margin-bottom: 40vh;
+    
+}
+
+.login-form{
+    width: 100%;
+    height: 100%;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.form-item{
+    
+
+    
+}
+
+
+.input-text{
+    border: 0px;
+    font-size: 20pt;
+    
+    border-bottom: 1px solid rgb(182, 178, 178);
+}
+.input-text:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(148, 192, 228);
+}
+
+.button-submit{
+    margin-top: 15px;
+    border: 0px;
+    font-size: 20pt;
+    box-shadow: 0px 1px 1px #aaa;
+    width: 35vw;
+}
+
+.button-submit:hover{
+    border: 0px;
+    font-size: 20pt;
+    box-shadow: 0px 2px 2px #aaa;
+}
